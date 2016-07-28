@@ -309,7 +309,7 @@ extension XPathObject {
         return nodeSet![index]
     }
 
-    var nodeSet: XMLNodeSet? {
+    public var nodeSet: XMLNodeSet? {
         if case let .NodeSet(nodeset) = self {
             return nodeset
         }
